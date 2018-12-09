@@ -1,0 +1,164 @@
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.search {
+  width: 584px;
+  padding: 7px;
+  margin: 20px auto;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#sbar {
+  width: 560px;
+  height: 30px;
+  border: none;
+
+}
+
+.logo {
+  width: 1920px;
+  height: 250px;
+
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 272px;
+  padding-top: 140px;
+}
+
+/*
+.header-left {
+  position: absolute;
+  text-align: left;
+  left: 0px;
+  width: 960px;
+  height: 40px;
+}
+
+.header-right {
+  position: absolute;
+  text-align: right;
+  right: 0px;
+  width: 960px;
+  height: 40px;
+}
+
+.left-text {
+  margin: 20px 0 0 10px;
+}
+
+.left-link {
+  padding-left: 15px;
+}
+*/
+
+.buttons {
+  width: 571px;
+  height: 58px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.button {
+  border: 0px;
+  background: none;
+  width: 126px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 9px 16px;
+  background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+input#submit{
+  background:none;
+  border:none;
+}
+
+#lucky {
+  width: 144px;
+}
+
+.right-text {
+  padding: 8px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 18px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 9px;
+  text-decoration: none;
+}
+
+.icon {
+  padding: 12px 9px;
+}
+
+.square-icon {
+  opacity: .75;
+}
+
+.icon2 {
+  padding: 9px 9px;
+}
+
+.icon3 {
+  padding: 3px 9px;
+  padding-right: 25px
+}
+
+.right-link {
+  float: right;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #F2F2F2;
+  border-top: 1px solid #e2e2e2;
+}
+
+.bottom {
+  padding: 0;
+}
+
+.link-left {
+  padding-left: 25px;
+}
+
+.link-right {
+  padding-right: 25px;
+}
+
+.bottom-link {
+  padding: 0 5px
+}
